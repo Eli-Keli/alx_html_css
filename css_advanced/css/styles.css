@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url(../source-sans-pro/SourceSansPro-Bold.otf)
+    url(../source-sans-pro/SourceSansPro-Semibold.otf)
+    url(../source-sans-pro/SourceSansPro-Light.otf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url(../images/Object.png);
+  /* background-repeat: no-repeat; */
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+nav {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 235px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 220px;
+}
+
+.title {
+  font-size: 120px;
+  font-weight: 700;
+  text-align: center;
+}
+
+span {
+  text-transform: uppercase;
+  margin-right: 60px;
+}
+
+.btn {
+  text-transform: uppercase;
+  background-color: #c271ff;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 17.5px;
+  padding: 13px 20px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 40px;
+}
+
+.hero-section > h2 > span {
+    color: #c271ff;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.hero-section > h2 {
+    font-weight: 100;
+    margin-top: 170px;
+}
+
+.pros {
+    /* width: 220px; */
+    display: flex;
+    margin-top: 90px;
+}
+
+.pro-1, .pro-2, .pro-3, .pro-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.pro-1, .pro-2, .pro-3 {
+    margin-right: 140px;
+}
+
+.pros > div > img {
+    width: 150px;
+    height: 150px;
+}
+
+.pros > div > h3 {
+    width: 150px;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+.pros > div > p {
+    width: 150px;
+    font-style: italic;
+    font-weight: 400;
+}
